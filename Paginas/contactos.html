@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../Fotos/icono.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!--CSS externo-->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+<body id="contacto">
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a>          </li>
+                <li><a href="./servicios.html">Servicios</a>    </li>
+                <li><a href="./nosotros.html">Nosotros</a>      </li>
+                <li><a href="./informacion.html">Michi tips</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!------------------------------------------------------------->
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13137.623827533293!2d-58.542955899999995!3d-34.593894799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1666921333198!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!------------------------------------------------------------->
+    <form action="enviar.php" method="get">
+        <div id="datos">
+            <h2>Dejanos tu mensaje</h2>
+    
+            <label for="nombre" class="nombre">Nombre</label>
+            <input type="text" id="nombre" required placeholder="Ingrese su nombre" >
+ 
+            <label for="mail">Email</label>
+            <input type="email" id="mail" required placeholder="Correo electronico" >
+ 
+            <label for="multi">Su mensaje</label>
+            <textarea name="multi" id="multi" cols="30" rows="10" required  placeholder="Envianos tu consulta con horarios y zonas disponibles" ></textarea>
+        
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar todo">
+        </div>
+    </form>
+
+    <!------------------------------------------------------------->
+    <footer>
+        <a href="https://www.instagram.com/arkuiris_/" target="_blank">
+        <img src="../Fotos/redes.jpg" alt="link redes">
+        </a>
+        <p class="footer">Podes seguirnos o mandarnos mensajes a nuetras redes</p>
+        <p>&copy;2022</p>
+    </footer>
+</body>
+</html>

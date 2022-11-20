@@ -1,0 +1,229 @@
+#index{
+   background-image: url("../Fotos/fondo2.png");
+   background-size: cover;
+   font-family: 'Nunito', sans-serif;
+}
+
+.menu{
+   display: flex;
+}
+
+.menu ul li{
+   display: inline;
+   padding: 10px;
+}
+
+.menu ul li a{
+   text-decoration: none;
+   color: black;
+   font-weight:900;
+   font-size: 30px;
+}
+
+h1{
+   text-align: center;
+   letter-spacing: 1px;
+   
+font-size: 120px;
+}
+
+h2{
+   text-align: center;
+   font-size: 50px;
+}
+
+.boxModel{
+   display: flex;
+   padding: 30px;
+   margin: 7%;
+}
+
+.boxModel img{
+   justify-content: start;
+   margin-right: 10px;
+   
+}
+
+.boxModel p{
+   text-align: center;
+   font-size: larger;
+}
+footer{
+   display: flex;
+   justify-content: center;
+   margin-top: 15%;
+}
+
+.footer{
+   text-align: center;
+}
+
+
+/*----------------CONTACTO-----------------*/
+#contacto{
+   background-image: url("../Fotos/fondo2.png");
+   background-size: cover;
+   background-position-y: bottom;
+   font-family: 'Nunito', sans-serif;
+}
+
+.maps{
+   display: flex;
+   justify-content: right;
+   margin-right: 50px;
+}
+
+#datos{
+   margin-top: 200px;
+   margin-left: 50px;
+}
+
+h2{
+   font-size: 50px;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+   margin-top: 10%;
+}
+
+
+/*----------------SERVICIOS-----------------*/
+#servicios{
+   background-image: url("../Fotos/fondo2.png");
+   background-size: cover;
+   background-position-y: bottom;
+   font-family: 'Nunito', sans-serif;
+}
+
+
+h2{
+   text-align: center;
+   font-size: 40px;
+}
+
+.boxServicios{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-items: center;
+   align-items: center; 
+   gap: 5px;
+   text-align: center;
+
+}
+
+.visitas{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   text-align: center;
+}
+
+h3{
+   grid-column: 2/3;
+   grid-row: 1/2;
+   font-size: 30px;
+   
+}
+
+.pvisitas{
+   grid-column: 2/3;
+   grid-row: 1/2;
+   margin-top: 80px;
+}
+
+h4{
+   font-size: 30px;
+   grid-column: 2/3;
+   grid-row: 2/3;
+}
+.pcomunicacion{
+   grid-column: 2/3;
+   grid-row: 2/3;   
+   margin-top: 80px;
+}
+
+.imgservicios{
+   grid-column: 1/3;
+   grid-row: 1/3;
+}
+footer{
+   display: flex;
+   justify-content: center;
+   margin-top: 7%;
+}
+
+.footer{
+   font-size: larger;
+}
+
+/*----------------NOSOTROS-----------------*/
+#nosotros{
+   background-image: url("../Fotos/fondo2.png");
+   background-size: cover;
+   background-position-y: bottom;
+   font-family: 'Nunito', sans-serif;
+}
+
+
+h2{
+   text-align: center;
+   font-size: 50px;
+}
+
+.presentacion img{
+   display: flex;
+   justify-content: left;
+   padding-right: 10px;
+}
+
+.presentacion{
+   text-align: center;
+   padding: 30px;
+   margin: 7%;
+}
+
+p{
+   font-size: larger;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+  margin-top: 15%;
+}
+
+.footer{
+  font-size: larger;
+}
+
+/*----------------INFORMACION-----------------*/
+#informacion{
+   background-image: url("../Fotos/fondo2.png");
+   background-size: cover;
+   background-position-y: bottom;
+   font-family: 'Nunito', sans-serif;}
+
+h2{
+   text-align: center;
+   font-size: 40px;
+}
+
+.datos{
+  text-align: center;
+}
+
+.datos img{
+   float: left;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+  margin-top: 25%;
+}
+
+.footer{
+  font-size: larger;
+}
