@@ -1,7 +1,9 @@
-#index{
+.container-fluid{
    background-image: url("../Fotos/fondo2.png");
    background-size: cover;
+   background-position-y: bottom;
    font-family: 'Nunito', sans-serif;
+   
 }
 
 .menu{
@@ -60,7 +62,7 @@ footer{
 
 
 /*----------------CONTACTO-----------------*/
-#contacto{
+.contacto{
    background-image: url("../Fotos/fondo2.png");
    background-size: cover;
    background-position-y: bottom;
@@ -90,7 +92,7 @@ footer{
 
 
 /*----------------SERVICIOS-----------------*/
-#servicios{
+.servicios{
    background-image: url("../Fotos/fondo2.png");
    background-size: cover;
    background-position-y: bottom;
@@ -133,20 +135,10 @@ h3{
    margin-top: 80px;
 }
 
-h4{
-   font-size: 30px;
-   grid-column: 2/3;
-   grid-row: 2/3;
-}
-.pcomunicacion{
-   grid-column: 2/3;
-   grid-row: 2/3;   
-   margin-top: 80px;
-}
+
 
 .imgservicios{
-   grid-column: 1/3;
-   grid-row: 1/3;
+
 }
 footer{
    display: flex;
@@ -159,7 +151,7 @@ footer{
 }
 
 /*----------------NOSOTROS-----------------*/
-#nosotros{
+.nosotros{
    background-image: url("../Fotos/fondo2.png");
    background-size: cover;
    background-position-y: bottom;
@@ -199,7 +191,7 @@ footer{
 }
 
 /*----------------INFORMACION-----------------*/
-#informacion{
+.informacion{
    background-image: url("../Fotos/fondo2.png");
    background-size: cover;
    background-position-y: bottom;
